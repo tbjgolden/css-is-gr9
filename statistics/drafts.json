@@ -1,0 +1,434 @@
+[
+  [
+    "zoom",
+    10373,
+    [
+      "10131 1",
+      "  110 100%",
+      "   46 normal",
+      "   19 expression(this.runtimestyle['zoom'] = '1', this.innerhtml = this.currentstyle['-ie7-icon'].substr(1, 1) + '&nbsp;')",
+      "   19 1.0",
+      "    5 2",
+      "    4 expression(this.runtimestyle['zoom'] = '1',this.innerhtml = this.currentstyle['-ie7-icon'].substr(1,1)+'&nbsp;')",
+      "    4 1.7",
+      "    4 50%",
+      "    3 1\\0",
+      "    3 0.8",
+      "    3 ~\"expression(this.runtimestyle['zoom'] = '1', this.innerhtml = this.currentstyle['-ie7-icon'].substr(1, 1) + '&nbsp;')\"",
+      "    2 0.75",
+      "    2 1.5",
+      "    2 85%",
+      "    2 60%"
+    ]
+  ],
+  [
+    "box-flex",
+    437,
+    [
+      "215 1",
+      "170 0",
+      " 24 2",
+      "  6 inherit",
+      "  5 3",
+      "  4 @amount",
+      "  2 5"
+    ]
+  ],
+  [
+    "box-orient",
+    361,
+    [
+      "240 vertical",
+      "117 horizontal",
+      "  4 @direction"
+    ]
+  ],
+  [
+    "box-align",
+    339,
+    [
+      "192 stretch",
+      " 73 center",
+      " 27 end",
+      " 26 start",
+      " 12 left",
+      "  4 @alignment",
+      "  4 baseline"
+    ]
+  ],
+  [
+    "box-pack",
+    170,
+    [
+      "112 center",
+      " 23 end",
+      " 23 start",
+      "  5 @pack",
+      "  3 baseline",
+      "  3 stretch"
+    ]
+  ],
+  [
+    "size",
+    133,
+    [
+      "21 letter landscape",
+      "11 1",
+      "11 a4",
+      "11 8.5in 11in",
+      " 9 a4 landscape",
+      " 7 auto",
+      " 6 2",
+      " 6 1cm",
+      " 5 1024px 640px",
+      " 4 20",
+      " 3 landscape",
+      " 3 a4 portrait",
+      " 3 30em",
+      " 3 1024px 768px",
+      " 2 30",
+      " 2 60px",
+      " 2 640px 430px",
+      " 2 image-size('../data/data-uri-fail.png')",
+      " 2 15px",
+      " 2 12px"
+    ]
+  ],
+  [
+    "icon",
+    128,
+    [
+      "2 embed(\"assets/images/delete.png\")",
+      "2 embed(\"assets/images/add.png\")",
+      "2 \"assets/icons/save32.png\"",
+      "2 \"assets/icons/save48.png\"",
+      "2 \"assets/icons/save64.png\"",
+      "2 embed('assets/icons/home48.png')",
+      "2 \"assets/icons/settingsicon32.png\"",
+      "2 classreference(\"mx.skins.halo.datagridsortarrow\")",
+      "2 classreference(\"mx.skins.halo.checkboxicon\")",
+      "2 classreference(\"mx.skins.halo.radiobuttonicon\")",
+      "2 classreference(\"mx.skins.spark.checkboxskin\")",
+      "2 classreference(\"mx.skins.spark.radiobuttonskin\")",
+      "2 classreference(null)",
+      "1 embed(\"assets/images/weather_sun.png\")",
+      "1 embed(\"assets/images/category.png\")",
+      "1 embed(\"assets/images/plugin.png\")",
+      "1 embed(\"assets/images/map.png\")",
+      "1 embed(\"assets/images/block.png\")",
+      "1 embed(\"assets/images/origami.png\")",
+      "1 embed(\"assets/images/skull.png\")",
+      "1 embed(\"assets/images/mesh_box_closed.png\")",
+      "1 embed(\"assets/images/box_closed.png\")",
+      "1 embed(\"assets/images/film-medium.png\")",
+      "1 embed(\"assets/images/inbox-film.png\")",
+      "1 embed(\"assets/images/walk.png\")",
+      "1 embed(\"assets/images/teddy_bear.png\")",
+      "1 embed(\"assets/images/blue-document-attribute-s.png\")",
+      "1 embed(\"assets/images/blue-document-attribute-e.png\")",
+      "1 embed(\"assets/images/weather_clouds.png\")",
+      "1 embed(\"assets/images/camera.png\")",
+      "1 embed(\"assets/images/camera-lens.png\")",
+      "1 embed(\"assets/images/page_white_star.png\")",
+      "1 embed(\"assets/images/folder_page_white.png\")",
+      "1 embed(\"assets/images/document-import.png\")",
+      "1 embed(\"assets/images/disk.png\")",
+      "1 embed(\"assets/images/printer.png\")",
+      "1 embed(\"assets/images/arrow_undo.png\")",
+      "1 embed(\"assets/images/arrow_redo.png\")",
+      "1 embed(\"assets/images/zoom_in.png\")",
+      "1 embed(\"assets/images/zoom_out.png\")",
+      "1 embed(\"assets/images/help.png\")",
+      "1 embed(\"assets/images/cog.png\")",
+      "1 embed(\"assets/images/page_white_gear.png\")",
+      "1 embed(\"assets/images/information.png\")",
+      "1 embed(\"assets/images/cut.png\")",
+      "1 embed(\"assets/images/page_copy.png\")",
+      "1 embed(\"assets/images/paste_plain.png\")",
+      "1 embed(\"assets/images/shape_rotate_clockwise.png\")",
+      "1 embed(\"assets/images/shape_rotate_anticlockwise.png\")"
+    ]
+  ],
+  [
+    "color-profile",
+    105,
+    [
+      "105 srgb"
+    ]
+  ],
+  [
+    "rendering-intent",
+    101,
+    [
+      "101 auto"
+    ]
+  ],
+  [
+    "box-direction",
+    47,
+    [
+      "23 reverse",
+      "20 normal",
+      " 4 @direction"
+    ]
+  ],
+  [
+    "flex-align",
+    35,
+    [
+      "14 stretch",
+      "12 start",
+      " 8 center"
+    ]
+  ],
+  [
+    "box-flex-group",
+    23,
+    [
+      "10 1",
+      "10 2",
+      " 3 0"
+    ]
+  ],
+  [
+    "grid-gap",
+    21,
+    [
+      "3 1em",
+      "3 16px"
+    ]
+  ],
+  [
+    "box-ordinal-group",
+    20,
+    [
+      "11 1"
+    ]
+  ],
+  [
+    "box-lines",
+    16,
+    [
+      "12 multiple",
+      " 3 inherit"
+    ]
+  ],
+  [
+    "rest",
+    13,
+    [
+      "6 1 2 3 4",
+      "6 @rest"
+    ]
+  ],
+  [
+    "user-zoom",
+    11,
+    [
+      "11 fixed"
+    ]
+  ],
+  [
+    "max-zoom",
+    11,
+    [
+      "11 $$count$$"
+    ]
+  ],
+  [
+    "min-zoom",
+    11,
+    [
+      "11 $$count$$"
+    ]
+  ],
+  [
+    "flex-pack",
+    9,
+    [
+      "9 center"
+    ]
+  ],
+  [
+    "grid-row-gap",
+    8,
+    [
+      "1 12px",
+      "1 var(--box-1)",
+      "1 var(--box-2)",
+      "1 var(--box-3)",
+      "1 var(--box-4)",
+      "1 var(--box-5)",
+      "1 var(--box-6)",
+      "1 3vmin"
+    ]
+  ],
+  [
+    "ime-mode",
+    7,
+    [
+      "4 disabled",
+      "3 inactive"
+    ]
+  ],
+  [
+    "grid-column-gap",
+    7,
+    [
+      "1 12px",
+      "1 var(--box-1)",
+      "1 var(--box-2)",
+      "1 var(--box-3)",
+      "1 var(--box-4)",
+      "1 var(--box-5)",
+      "1 var(--box-6)"
+    ]
+  ],
+  [
+    "hyphenate-lines",
+    6,
+    [
+      "4 3",
+      "2 2"
+    ]
+  ],
+  [
+    "column-break-after",
+    4,
+    [
+      "2 always",
+      "2 avoid"
+    ]
+  ],
+  [
+    "grid-columns",
+    4,
+    [
+      "1 span 2",
+      "1 2/span 3",
+      "1 4/span 1",
+      "1 1/span 2"
+    ]
+  ],
+  [
+    "scroll-snap-coordinate",
+    4,
+    [
+      "3 0 0"
+    ]
+  ],
+  [
+    "marks",
+    4,
+    [
+      "4 none"
+    ]
+  ],
+  [
+    "flex-order",
+    4,
+    [
+      "2 1",
+      "2 2"
+    ]
+  ],
+  [
+    "clear-after",
+    2,
+    [
+      "2 both"
+    ]
+  ],
+  [
+    "text-underline",
+    2,
+    [
+      "1 dotted-underline",
+      "1 none"
+    ]
+  ],
+  [
+    "vertical-position",
+    2,
+    [
+      "2 bottom"
+    ]
+  ],
+  [
+    "hyphenate-after",
+    2,
+    [
+      "2 $$count$$"
+    ]
+  ],
+  [
+    "hyphenate-before",
+    2,
+    [
+      "2 $$count$$"
+    ]
+  ],
+  [
+    "column-break-before",
+    1,
+    [
+      "1 always"
+    ]
+  ],
+  [
+    "grid-auto-position",
+    1,
+    [
+      "1 1/1"
+    ]
+  ],
+  [
+    "text-outline",
+    1,
+    [
+      "1 none"
+    ]
+  ],
+  [
+    "scroll-snap-points-y",
+    1,
+    [
+      "1 repeat(100%)"
+    ]
+  ],
+  [
+    "wrap",
+    1,
+    [
+      "1 no-wrap"
+    ]
+  ],
+  [
+    "speak-as",
+    1,
+    [
+      "1 \"bullets\""
+    ]
+  ],
+  [
+    "linefeed-treatment",
+    1,
+    [
+      "1 preserve"
+    ]
+  ],
+  [
+    "target-new",
+    1,
+    [
+      "1 tab"
+    ]
+  ],
+  [
+    "target-position",
+    1,
+    [
+      "1 behind"
+    ]
+  ]
+]

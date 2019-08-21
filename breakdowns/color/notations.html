@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Notations</title>
+  <style>
+    * {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: flex-end;
+      font: 20px monospace;
+      color: #fff;
+      background: #000;
+    }
+    #notations {
+      height: 100vmin;
+      width: 100vmin;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      border-radius: 9999px;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+    }
+    .sector {
+      display: inline-block;
+      border: solid transparent;
+      border-top-color: black;
+      transform-origin: bottom center;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      z-index: 2;
+    }
+    .sector.blurred {
+      z-index: 1;
+      filter: blur(1px);
+    }
+    .sector:hover {
+      z-index: 9999;
+    }
+    .sector:hover::after {
+      display: block;
+      white-space: pre;
+      width: 50vmin;
+      content: attr(data-text);
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      z-index: 9999;
+    }
+    .hex6 {
+      border-top-color: hsl(240deg, 100%, 45%);
+    }
+    .hex3 {
+      border-top-color: hsl(240deg, 100%, 35%);
+    }
+    .hex8 {
+      border-top-color: hsl(240deg, 100%, 65%);
+    }
+    .hex4 {
+      border-top-color: hsl(240deg, 100%, 55%);
+    }
+    .keyword {
+      border-top-color: hsl(0deg, 100%, 50%);
+    }
+    .rgba {
+      border-top-color: hsl(300deg, 100%, 60%);
+    }
+    .rgb {
+      border-top-color: hsl(300deg, 100%, 40%);
+    }
+    .hsla {
+      border-top-color: hsl(120deg, 100%, 60%);
+    }
+    .hsl {
+      border-top-color: hsl(120deg, 100%, 40%);
+    }
+  </style>
+</head>
+<body>
+  <div id="notations"></div>
+  <script>/* eslint-disable */
+    function get(url, success) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', url);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) success(JSON.parse(xhr.responseText));
+      };
+      xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+      xhr.send();
+    }
+
+    const SECTORS = 256;
+
+    get('notations.json', notations => {
+      const notationsEl = document.querySelector("#notations");
+
+      let total = 0;
+      Object.values(notations).forEach(count => { total += count; });
+
+      const sectors = Object.entries(notations)
+        .sort(([, a], [, b]) => a - b)
+        .map(([name, count]) => [name, count, Math.ceil(count * SECTORS / total)]);
+
+      for (let i = 0; i < SECTORS; i++) {
+        if (!sectors[0][2]--) sectors.shift();
+
+        const [name, count] = sectors[0];
+
+        for (let blurred of [true, false]) {
+          const sectorEl = document.createElement("DIV");
+          sectorEl.classList.add("sector", name, blurred ? "blurred" : "not-blurred");
+          sectorEl.style.transform = `rotate(${i / SECTORS - 1 / 10}turn)`;
+          sectorEl.style.borderWidth = `50vmin ${500 / 3 / SECTORS}vmin 0`;
+          sectorEl.setAttribute('data-text', `${name}:\n${count} times\n${parseFloat(`${Number(100 * count / total).toFixed(3)}`)}%`);
+          notationsEl.appendChild(sectorEl);
+        }
+      }
+    })
+  </script>
+</body>
+</html>

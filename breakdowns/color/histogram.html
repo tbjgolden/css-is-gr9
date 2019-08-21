@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Histogram</title>
+  <style>
+    * {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: flex-end;
+      background-color: #111;
+      font: 20px monospace;
+      color: #fff;
+    }
+    #histogram {
+      width: 100vmin;
+      height: 100vmin;
+      display: flex;
+      background: #000;
+    }
+    .column {
+      width: calc(100vmin / 256);
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column-reverse;
+      max-height: 100vmin;
+      overflow-x: visible;
+      position: relative;
+    }
+    .bar {
+      flex: 0 0 auto;
+    }
+    .spacer {
+      flex: 1 1 0;
+    }
+    .column:nth-child(17n - 16) .spacer {
+      background: #111;
+    }
+    .column:nth-child(17n - 16)::before {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      background-color: #000;
+      transform: translateX(-50%);
+    }
+    .column:nth-child(1)::before   { content: "0"; }
+    .column:nth-child(18)::before  { content: "1"; }
+    .column:nth-child(35)::before  { content: "2"; }
+    .column:nth-child(52)::before  { content: "3"; }
+    .column:nth-child(69)::before  { content: "4"; }
+    .column:nth-child(86)::before  { content: "5"; }
+    .column:nth-child(103)::before { content: "6"; }
+    .column:nth-child(120)::before { content: "7"; }
+    .column:nth-child(137)::before { content: "8"; }
+    .column:nth-child(154)::before { content: "9"; }
+    .column:nth-child(171)::before { content: "A"; }
+    .column:nth-child(188)::before { content: "B"; }
+    .column:nth-child(205)::before { content: "C"; }
+    .column:nth-child(222)::before { content: "D"; }
+    .column:nth-child(239)::before { content: "E"; }
+    .column:nth-child(256)::before { content: "F"; }
+    /* r:2, g:3, b:5, a:7 */
+    .c30 { background: #ffffff; }
+    .c15 { background: #00ffff; }
+    .c10 { background: #ff00ff; }
+    .c6  { background: #ffff00; }
+    .c5  { background: #0000ff; }
+    .c3  { background: #00ff00; }
+    .c2  { background: #ff0000; }
+  </style>
+</head>
+<body>
+  <div id="histogram"></div>
+  <script>/* eslint-disable */
+    function get(url, success) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', url);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) success(JSON.parse(xhr.responseText));
+      };
+      xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+      xhr.send();
+    }
+
+    get('histogram.json', columns => {
+      const histogramEl = document.querySelector("#histogram");
+
+      for (let column of columns) {
+        const colEl = document.createElement("DIV");
+        colEl.classList.add("column");
+
+        let last = 0;
+        for (let [color, n] of column) {
+          const totalHeight = n;
+          const height = totalHeight - last;
+          last = totalHeight;
+          const barEl = document.createElement("DIV");
+          barEl.classList.add("bar", `c${color}`);
+          barEl.style.height = `calc(100vmin * ${height} / 100000)`;
+          colEl.appendChild(barEl);
+        }
+
+        const spacerEl = document.createElement("DIV");
+        spacerEl.classList.add("spacer");
+        colEl.appendChild(spacerEl);
+
+        histogramEl.appendChild(colEl);
+      }
+    })
+  </script>
+</body>
+</html>

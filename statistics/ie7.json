@@ -1,0 +1,974 @@
+[
+  [
+    "*zoom",
+    39643,
+    [
+      "21142 1",
+      "   60 normal",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf011;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf013;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf01e;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf064;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf085;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf096;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf0c6;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf0e2;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf112;')",
+      "   52 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf122;')",
+      "   51 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf123;')",
+      "   50 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf153;')",
+      "   50 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf155;')",
+      "   50 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf156;')",
+      "   50 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf157;')",
+      "   50 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf158;')",
+      "   50 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf159;')",
+      "   50 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf15a;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf000;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf001;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf002;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf003;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf004;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf005;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf006;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf007;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf008;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf009;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf00a;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf00b;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf00c;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf00d;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf00e;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf010;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf012;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf014;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf015;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf016;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf017;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf018;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf019;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf01a;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf01b;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf01c;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf01d;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf021;')",
+      "   27 expression( this.runtimestyle['zoom'] = '1', this.innerhtml = '&#xf022;')"
+    ]
+  ],
+  [
+    "*margin-left",
+    30974,
+    [
+      "2848 0",
+      "1405 .3em",
+      " 541 2.074468085106383%",
+      " 470 104.14893617021275%",
+      " 470 95.6382978723404%",
+      " 470 93.51063829787232%",
+      " 470 87.12765957446807%",
+      " 470 78.61702127659572%",
+      " 470 70.10638297872339%",
+      " 470 67.9787234042553%",
+      " 470 61.59574468085106%",
+      " 470 59.46808510638297%",
+      " 470 53.085106382978715%",
+      " 470 50.95744680851063%",
+      " 470 44.57446808510638%",
+      " 470 36.06382978723405%",
+      " 470 33.93617021276596%",
+      " 470 27.5531914893617%",
+      " 470 25.425531914893618%",
+      " 470 19.04255319148936%",
+      " 470 16.914893617021278%",
+      " 470 10.53191489361702%",
+      " 469 76.48936170212764%",
+      " 469 42.4468085106383%",
+      " 464 102.02127659574467%",
+      " 464 84.99999999999999%",
+      " 464 8.404255319148938%",
+      " 282 105.41847889972962%",
+      " 282 102.6560479605031%",
+      " 282 96.8549429881274%",
+      " 282 88.2914070765252%",
+      " 282 85.52897613729868%",
+      " 282 76.96544022569647%",
+      " 282 71.16433525332079%",
+      " 282 68.40190431409427%",
+      " 282 62.600799341718584%",
+      " 282 54.037263430116376%",
+      " 282 45.47372751851417%",
+      " 282 42.71129657928765%",
+      " 282 34.14776066768544%",
+      " 282 28.346655695309746%",
+      " 282 25.584224756083227%",
+      " 282 19.783119783707537%",
+      " 282 17.02068884448102%",
+      " 282 11.219583872105325%",
+      " 281 2.709239449864817%",
+      " 281 94.09251204890089%",
+      " 281 79.72787116492299%",
+      " 281 59.838368402492065%"
+    ]
+  ],
+  [
+    "*width",
+    18708,
+    [
+      "1310 100%",
+      "1037 99.94680851063829%",
+      " 472 91.43617021276594%",
+      " 472 82.92553191489361%",
+      " 472 74.41489361702126%",
+      " 472 57.39361702127659%",
+      " 472 48.88297872340425%",
+      " 472 40.37234042553192%",
+      " 472 31.861702127659576%",
+      " 472 14.840425531914894%",
+      " 472 6.329787234042553%",
+      " 471 65.90425531914893%",
+      " 466 23.351063829787233%",
+      " 288 48.56559304102504%",
+      " 285 31.43852121782062%",
+      " 284 91.38327259903608%",
+      " 284 82.81973668743387%",
+      " 284 65.69266486422946%",
+      " 284 57.12912895262725%",
+      " 284 40.00205712942283%",
+      " 284 22.87498530621841%",
+      " 284 14.311449394616199%",
+      " 284 5.747913483013988%",
+      " 283 74.25620077583166%",
+      " 244 48.664757228587014%",
+      " 242 31.570740134569924%",
+      " 241 91.39979996362975%",
+      " 241 82.8527914166212%",
+      " 241 74.30578286961266%",
+      " 241 65.75877432260411%",
+      " 241 57.21176577559556%",
+      " 241 40.11774868157847%",
+      " 241 23.023731587561375%",
+      " 241 14.476723040552828%",
+      " 241 5.929714493544281%",
+      " 163 13px",
+      " 141 95%",
+      "  60 99.94680850063828%",
+      "  60 91.4361702036383%",
+      "  60 82.92553190663828%",
+      "  60 74.4148936096383%",
+      "  60 65.90425531263828%",
+      "  60 57.3936170156383%",
+      "  60 48.88297871863829%",
+      "  60 40.3723404216383%",
+      "  60 31.8617021246383%",
+      "  60 23.3510638276383%",
+      "  60 14.8404255306383%",
+      "  60 6.329787233638298%"
+    ]
+  ],
+  [
+    "*background-color",
+    11219,
+    [
+      "965 #d9d9d9",
+      "491 #e6e6e6",
+      "482 #151515",
+      "458 #499249",
+      "455 #a9302a",
+      "451 #2a85a0",
+      "443 #51a351",
+      "441 #bd362f",
+      "434 #2f96b4",
+      "401 #df8505",
+      "383 #f89406",
+      "305 #040404",
+      "303 #003bb3",
+      "299 #e5e5e5",
+      "272 #000000",
+      "263 #222222",
+      "204 #222",
+      "163 #0044cc",
+      "163 #000",
+      "126 #04c",
+      " 54 #004ab3",
+      " 52 #dd5600",
+      " 52 #c44c00",
+      " 48 @endcolor",
+      " 48 #c64012",
+      " 48 #1a99e2",
+      " 48 #022f5a",
+      " 36 #c11f0d",
+      " 36 #fffffe",
+      " 34 #1c1e22",
+      " 34 #606670",
+      " 33 #b30000",
+      " 32 #dd4814",
+      " 32 #642246",
+      " 30 #05c",
+      " 30 #0072e6",
+      " 29 #3c3c3c",
+      " 28 #e1e1e1",
+      " 27 #73a839",
+      " 27 #669533",
+      " 26 #9760b3",
+      " 26 #8b51a9",
+      " 26 #c71c22",
+      " 26 #b1191e",
+      " 26 #971923",
+      " 26 #ccab1f",
+      " 26 #262626",
+      " 25 #0055cc",
+      " 24 #f2f2f2"
+    ]
+  ],
+  [
+    "*display",
+    9093,
+    [
+      "8325 inline",
+      " 724 inline-block",
+      "  37 block",
+      "   6 none"
+    ]
+  ],
+  [
+    "*padding-bottom",
+    5221,
+    [
+      "1252 3px",
+      "1192 7px",
+      " 755 2px",
+      " 703 4px",
+      " 685 1px",
+      " 588 5px",
+      "  19 0",
+      "   6 15px",
+      "   6 12px",
+      "   6 6px",
+      "   5 14px",
+      "   2 0px"
+    ]
+  ],
+  [
+    "*padding-top",
+    5157,
+    [
+      "1220 3px",
+      "1198 7px",
+      "1099 5px",
+      " 711 2px",
+      " 659 1px",
+      " 191 4px",
+      "  24 19px",
+      "  11 0",
+      "  10 6px",
+      "  10 14px",
+      "   8 10px",
+      "   6 13px",
+      "   6 8px",
+      "   3 "
+    ]
+  ],
+  [
+    "*margin-top",
+    1965,
+    [
+      "813 0",
+      "744 4px",
+      "103 1px",
+      " 72 -1px",
+      " 68 3px",
+      " 63 6px",
+      " 61 -2px",
+      " 22 -1.45em",
+      "  4 10px",
+      "  3 5px",
+      "  2 .25em",
+      "  2 -1.2em"
+    ]
+  ],
+  [
+    "*z-index",
+    1679,
+    [
+      "793 1000",
+      "639 2",
+      "232 2050",
+      "  8 -1",
+      "  4 10",
+      "  2 100"
+    ]
+  ],
+  [
+    "*overflow",
+    1488,
+    [
+      "1449 visible",
+      "  28 auto",
+      "  11 hidden"
+    ]
+  ],
+  [
+    "*margin",
+    1403,
+    [
+      "1300 -5px 0 5px",
+      "  45 0",
+      "  17 5px 5px 5px -90px",
+      "   6 0 0 5px 145px",
+      "   4 6px 0 0 6px",
+      "   4 0 0 6px 6px",
+      "   3 -7px 0 2px",
+      "   2 -1.5em 0em 0em 0.2em",
+      "   2 -0.2em 0em 0em 0.1em",
+      "   2 102px 0 0",
+      "   2 -1.5em 0 0 .2em",
+      "   2 -0.2em 0 0 .1em",
+      "   2 4px 0 0 80px",
+      "   2 -200px 0 0 -150px",
+      "   2 5px 10px 5px 15px",
+      "   2 15px 0 0 15px"
+    ]
+  ],
+  [
+    "*border",
+    1382,
+    [
+      "719 1px solid #999",
+      "611 0",
+      "  9 0px",
+      "  6 1px solid #fffffe",
+      "  6 1px solid transparent",
+      "  6 1px dotted #696969",
+      "  6 0px dashed #e6e6e6",
+      "  3 0 none",
+      "  3 1px solid #7dbaff",
+      "  2 1px solid #bbb",
+      "  2 1px solid #e9e9e9"
+    ]
+  ],
+  [
+    "*margin-right",
+    1239,
+    [
+      "862 .3em",
+      " 74 0",
+      " 23 0px",
+      " 17 4%",
+      " 16 14.55em",
+      " 16 19.125em",
+      " 16 23.62em",
+      " 10 expression((!this.classname.match(/grid-[1-9]/) && this.currentstyle.display === 'block' && this.currentstyle.width === 'auto') && '10px')",
+      "  8 -2px",
+      "  8 1px",
+      "  5 3px",
+      "  5 14.512em",
+      "  5 19.016em",
+      "  5 23.52em",
+      "  3 20px",
+      "  3 2.0744680846382977%",
+      "  2 3.291666666666667%",
+      "  2 6.625%",
+      "  2 5px",
+      "  2 2.074468085106383%",
+      "  2 104.14893617021275%",
+      "  2 102.02127659574467%",
+      "  2 95.6382978723404%",
+      "  2 93.51063829787232%",
+      "  2 87.12765957446807%",
+      "  2 84.99999999999999%",
+      "  2 78.61702127659572%",
+      "  2 76.48936170212764%",
+      "  2 70.10638297872339%",
+      "  2 67.9787234042553%",
+      "  2 61.59574468085106%",
+      "  2 59.46808510638297%",
+      "  2 53.085106382978715%",
+      "  2 50.95744680851063%",
+      "  2 44.57446808510638%",
+      "  2 42.4468085106383%",
+      "  2 36.06382978723405%",
+      "  2 33.93617021276596%",
+      "  2 27.5531914893617%",
+      "  2 25.425531914893618%",
+      "  2 19.04255319148936%",
+      "  2 16.914893617021278%",
+      "  2 10.53191489361702%",
+      "  2 8.404255319148938%",
+      "  2 2.5109110747408616%",
+      "  2 105.02182214948171%",
+      "  2 102.45771958537915%",
+      "  2 96.47481360247316%",
+      "  2 93.91071103837061%"
+    ]
+  ],
+  [
+    "*padding-left",
+    1160,
+    [
+      "596 20px",
+      "459 180px",
+      " 79 160px",
+      " 10 0",
+      "  4 24px",
+      "  4 182px",
+      "  2 1.25em",
+      "  2 11.25em",
+      "  2 200px"
+    ]
+  ],
+  [
+    "*line-height",
+    784,
+    [
+      "154 20px",
+      "119 0",
+      " 98 16px",
+      " 64 2em",
+      " 64 1em",
+      " 58 1.9",
+      " 50 18px",
+      " 41 1.7",
+      " 39 1.45",
+      " 26 1.5",
+      " 19 1.875",
+      " 10 30px",
+      "  9 @baselineheight",
+      "  9 @line-height - 4px",
+      "  8 21px",
+      "  5 1.4em",
+      "  5 15px",
+      "  3 2",
+      "  3 42px"
+    ]
+  ],
+  [
+    "*border-bottom-width",
+    784,
+    [
+      "765 2px",
+      " 19 0"
+    ]
+  ],
+  [
+    "*border-right-width",
+    765,
+    [
+      "765 2px"
+    ]
+  ],
+  [
+    "*position",
+    745,
+    [
+      "721 relative",
+      " 18 absolute",
+      "  4 static",
+      "  2 none"
+    ]
+  ],
+  [
+    "*border-collapse",
+    721,
+    [
+      "529 collapse",
+      "192 collapsed"
+    ]
+  ],
+  [
+    "*border-right-color",
+    703,
+    [
+      "455 #ffffff",
+      "218 #fff",
+      " 24 #ddd",
+      "  3 @white",
+      "  3 white"
+    ]
+  ],
+  [
+    "*margin-bottom",
+    690,
+    [
+      "678 -3px",
+      "  6 3px"
+    ]
+  ],
+  [
+    "*border-left-color",
+    679,
+    [
+      "455 #ffffff",
+      "218 #fff",
+      "  3 @white",
+      "  3 white"
+    ]
+  ],
+  [
+    "*vertical-align",
+    603,
+    [
+      "320 middle",
+      "171 auto",
+      " 95 text-bottom",
+      " 12 -5px",
+      "  3 top",
+      "  2 baseline"
+    ]
+  ],
+  [
+    "*left",
+    548,
+    [
+      "83 0",
+      "47 -1px",
+      "16 0px",
+      " 8 expression(math.floor(0.05 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.05 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.1 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.1 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.15 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.15 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.2 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.2 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.25 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.25 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.3 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.3 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.35 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.35 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.4 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.4 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.45 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.45 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.5 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.5 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.55 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.55 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.6 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.6 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.65 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.65 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.7 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.7 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.75 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.75 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.8 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.8 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.85 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.85 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.9 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.9 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.95 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.95 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.33333 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.33333 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(0.66667 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 8 expression(math.floor(-0.66667 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 7 -10px",
+      " 3 -999999px",
+      " 2 1.625%",
+      " 2 -0.04166666666666667%"
+    ]
+  ],
+  [
+    "*right",
+    440,
+    [
+      "21 -1px",
+      "17 50px",
+      "14 0",
+      " 9 expression(math.floor(0.05 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.05 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.1 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.1 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.15 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.15 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.2 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.2 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.25 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.25 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.3 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.3 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.35 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.35 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.4 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.4 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.45 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.45 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.5 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.5 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.55 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.55 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.6 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.6 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.65 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.65 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.7 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.7 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.75 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.75 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.8 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.8 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.85 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.85 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.9 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.9 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.95 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.95 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.33333 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.33333 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(0.66667 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 9 expression(math.floor(-0.66667 * (this.parentnode.offsetwidth - parsefloat(this.parentnode.currentstyle.paddingleft) - parsefloat(this.parentnode.currentstyle.paddingright))) + 'px')",
+      " 6 -10px"
+    ]
+  ],
+  [
+    "*top",
+    353,
+    [
+      "158 -5px",
+      " 47 0",
+      " 42 14px",
+      " 19 4px",
+      " 11 -50%",
+      "  9 0px",
+      "  6 -10px",
+      "  4 10px",
+      "  3 3px",
+      "  3 32.43895348837209%",
+      "  3 -3px",
+      "  2 73.05910852713178%",
+      "  2 47.494565217391305%",
+      "  2 26.04528985507246%"
+    ]
+  ],
+  [
+    "*height",
+    343,
+    [
+      "163 13px",
+      " 52 32px",
+      " 38 50px",
+      " 27 auto",
+      " 10 29px",
+      " 10 2em",
+      "  7 0",
+      "  7 1px",
+      "  6 28px",
+      "  3 18px",
+      "  2 4.958333333333333%",
+      "  2 500px",
+      "  2 15px",
+      "  2 9px",
+      "  2 1%"
+    ]
+  ],
+  [
+    "*font-size",
+    316,
+    [
+      "90 small",
+      "83 0",
+      "67 108%",
+      "54 100%",
+      "13 90%",
+      " 4 28px",
+      " 3 24px",
+      " 2 80%"
+    ]
+  ],
+  [
+    "*cursor",
+    183,
+    [
+      "183 hand"
+    ]
+  ],
+  [
+    "*filter",
+    153,
+    [
+      "66 progid:dximagetransform.microsoft.chroma(color=#fffffe)",
+      "42 chroma(color=#fffffe)",
+      "25 none",
+      " 7 alpha(opacity=12)",
+      " 5 alpha(opacity=25)",
+      " 4 chroma(color=pink)",
+      " 3 chroma(color=@transparentie6)"
+    ]
+  ],
+  [
+    "*text-indent",
+    146,
+    [
+      "134 0",
+      " 12 -9999px"
+    ]
+  ],
+  [
+    "*float",
+    121,
+    [
+      "116 left",
+      "  4 right"
+    ]
+  ],
+  [
+    "*padding",
+    91,
+    [
+      "19 2px",
+      "18 0 0 5px 145px",
+      "15 0",
+      "11 4px 10px",
+      " 6 1px 6px 0",
+      " 3 1px 10px",
+      " 2 0 23px",
+      " 2 4px 10px 4px",
+      " 2 4px 10px 3px",
+      " 2 3px 10px 2px",
+      " 2 2px 3px"
+    ]
+  ],
+  [
+    "*white-space",
+    79,
+    [
+      "59 pre",
+      "20 normal"
+    ]
+  ],
+  [
+    "*border-color",
+    77,
+    [
+      "8 #000000 #fffffe #fffffe",
+      "6 #fffffe",
+      "4 #0088cc #fffffe #fffffe",
+      "4 #fffffe #000000 #fffffe #fffffe",
+      "4 #fffffe #fffffe #fffffe #000000",
+      "4 #fffffe #fffffe #000000",
+      "4 #cccccc #fffffe #fffffe",
+      "4 #fffffe #cccccc #fffffe #fffffe",
+      "4 #fffffe #fffffe #cccccc",
+      "4 #fffffe #fffffe #fffffe #cccccc",
+      "4 #000 #fffffe #fffffe",
+      "3 #ffffff #fffffe #fffffe",
+      "2 #08c #fffffe #fffffe",
+      "2 #fffffe #000 #fffffe #fffffe",
+      "2 #fffffe #fffffe #fffffe #000",
+      "2 #fffffe #fffffe #000",
+      "2 #ccc #fffffe #fffffe",
+      "2 #fffffe #ccc #fffffe #fffffe",
+      "2 #fffffe #fffffe #ccc",
+      "2 #fffffe #fffffe #fffffe #ccc"
+    ]
+  ],
+  [
+    "*letter-spacing",
+    75,
+    [
+      "61 normal",
+      "14 -1000px"
+    ]
+  ],
+  [
+    "*color",
+    74,
+    [
+      "25 inherit",
+      "14 expression(this.parentnode.currentstyle['color'])",
+      "14 #86a5ec",
+      "13 #444",
+      " 4 pink",
+      " 4 #404040"
+    ]
+  ],
+  [
+    "*font",
+    71,
+    [
+      "70 x-small"
+    ]
+  ],
+  [
+    "*background-image",
+    57,
+    [
+      "25 none",
+      "10 url(\"./img/ztreestandard.gif\")",
+      " 4 url(\"./img/metro.gif\")",
+      " 2 url(\"ie/header-line.png\")",
+      " 2 url(\"ie/icon-star.png\")",
+      " 2 url(\"ie/arrow-top.png\")",
+      " 2 url(\"ie/arrow-bottom.png\")",
+      " 2 url(\"ie/icon-options.png\")",
+      " 2 url(\"ie/icon-fork.png\")",
+      " 2 url(\"img/apimenu.gif\")"
+    ]
+  ],
+  [
+    "*word-spacing",
+    54,
+    [
+      "25 -0.43em",
+      "23 -.43em",
+      " 6 -1px"
+    ]
+  ],
+  [
+    "*min-height",
+    44,
+    [
+      "41 auto",
+      " 2 20px"
+    ]
+  ],
+  [
+    "*border-top-width",
+    38,
+    [
+      "38 $$count$$"
+    ]
+  ],
+  [
+    "*background",
+    33,
+    [
+      "7 #505152 url(../../../../assets/skins/night/sprite.png) repeat-x 0 -100px",
+      "7 #c1c4c8 url(../../../../assets/skins/sam/sprite.png) repeat-x 0 -100px",
+      "7 url(sprite_icons.png) no-repeat center 3px",
+      "7 url(sprite_icons.png) no-repeat 1px 1px"
+    ]
+  ],
+  [
+    "*bottom",
+    29,
+    [
+      "22 -1px",
+      " 6 -12px"
+    ]
+  ],
+  [
+    "*padding-right",
+    26,
+    [
+      "11 0",
+      " 8 20px",
+      " 3 160px",
+      " 2 180px"
+    ]
+  ],
+  [
+    "*border-width",
+    19,
+    [
+      "19 1px"
+    ]
+  ],
+  [
+    "*border-top-style",
+    12,
+    [
+      "12 solid"
+    ]
+  ],
+  [
+    "*background-position",
+    10,
+    [
+      "10 center 2px"
+    ]
+  ],
+  [
+    "*font-family",
+    6,
+    [
+      "1 'microsoft yahei',arial,sans-serif",
+      "1 @default-old-ie-base-font-family",
+      "1 @default-old-ie-heading-font-family",
+      "1 @default-old-ie-code-font-family",
+      "1 \"microsoft yahei\",arial,sans-serif",
+      "1 \"helvetica neue\",helvetica,arial,sans-serif"
+    ]
+  ],
+  [
+    "*overflow-x",
+    5,
+    [
+      "3 hidden"
+    ]
+  ],
+  [
+    "*list-style-type",
+    4,
+    [
+      "3 decimal"
+    ]
+  ],
+  [
+    "*behavior",
+    4,
+    [
+      "3 url(\"/path/to/boxsizing.htc\")"
+    ]
+  ],
+  [
+    "*border-bottom",
+    4,
+    [
+      "2 solid 1px #f6f7ee",
+      "1 2px solid #68af02",
+      "1 2px solid #ef8f00"
+    ]
+  ],
+  [
+    "*even",
+    3,
+    [
+      "3 'ie crap'"
+    ]
+  ],
+  [
+    "*clip",
+    3,
+    [
+      "3 rect(1px 1px 1px 1px)"
+    ]
+  ],
+  [
+    "*overflow-y",
+    3,
+    [
+      "2 hidden",
+      "1 auto"
+    ]
+  ],
+  [
+    "*name",
+    3,
+    [
+      "3 val"
+    ]
+  ],
+  [
+    "*-z-border",
+    2,
+    [
+      "2 1px dashed blue"
+    ]
+  ],
+  [
+    "*outline",
+    1,
+    [
+      "1 thin dotted #222 \\9"
+    ]
+  ],
+  [
+    "*max-width",
+    1,
+    [
+      "1 70%"
+    ]
+  ]
+]

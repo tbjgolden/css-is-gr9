@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Common Colors</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    body {
+      font: 20px monospace;
+      background: #ccc;
+      display: flex;
+    }
+    #common {
+      display: grid;
+      grid-template-columns: repeat(40, 1fr);
+      grid-template-rows: repeat(25, 1fr);
+      margin: 40px 10vw;
+      height: 50vw;
+      width: 80vw;
+      border: 1px solid;
+      border-radius: 2px;
+      background: radial-gradient(circle at 100% 100%, rgb(232, 17, 35), rgb(247, 148, 29) 14%, rgb(255, 242, 0) 28%, rgb(255, 255, 0) 34%, rgb(0, 166, 80) 68%, rgb(0, 84, 165) 80%, rgb(103, 45, 147));
+    }
+    .square {
+      position: relative;
+      padding: 100% 0 0;
+      background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2ZmZiI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+      background-size: 100%;
+    }
+    .color {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .color:hover::after,
+    .no-color:hover::after {
+      display: block;
+      content: attr(data-text);
+      white-space: pre;
+      position: fixed;
+      text-align: center;
+      z-index: 99;
+      pointer-events: none;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #fff;
+      padding: 4px 8px;
+      border: 2px solid;
+      border-radius: 2px;
+    }
+
+    .bt { border-top: 1px solid; }
+    .bl { border-left: 1px solid; }
+    .br { border-right: 1px solid; }
+    .bb { border-bottom: 1px solid; }
+  </style>
+</head>
+<body>
+  <div id="common"></div>
+  <script>/* eslint-disable */
+    function get(url, success) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', url);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) success(JSON.parse(xhr.responseText));
+      };
+      xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+      xhr.send();
+    }
+
+    get('common.json', ({ common, total }) => {
+      const commonEl = document.querySelector("#common");
+      let n = 0;
+      let totalPointsLeft = 1000;
+      for (let i = 0; i < common.length; i++) {
+        const [[color, altColor], count, points] = common[i];
+        let pointsLeft = points;
+        while (pointsLeft--) {
+          const squareEl = document.createElement("DIV");
+          squareEl.classList.add("square");
+          const colorEl = document.createElement("DIV");
+          colorEl.classList.add("color");
+
+          if (n < 40 || points - pointsLeft <= 40) colorEl.classList.add("bt");
+          if (n % 40 === 0 || points - pointsLeft <= 1) colorEl.classList.add("bl");
+          if (n % 40 === 39 || pointsLeft < 1) colorEl.classList.add("br");
+          if (n >= 24 * 40 || pointsLeft < 40) colorEl.classList.add("bb");
+
+          let ord = (["st", "nd", "rd"])[i % 10] || "th";
+          if ([10, 11, 12].includes(i % 100)) ord = "th";
+
+          colorEl.setAttribute("data-text", `${i + 1}${ord}\n${color}${altColor ? ` (${altColor})` : ""}\n${points / 10}%\nCount: ${count}`);
+          colorEl.style.backgroundColor = color;
+          squareEl.appendChild(colorEl);
+          commonEl.appendChild(squareEl);
+          n++;
+        }
+        totalPointsLeft -= points;
+      }
+      let squaresToAdd = totalPointsLeft;
+      while (squaresToAdd--) {
+        const squareEl = document.createElement("DIV");
+        squareEl.classList.add("no-color");
+        if (n < 40 || totalPointsLeft - squaresToAdd <= 40) squareEl.classList.add("bt");
+        if (n % 40 === 0 || totalPointsLeft - squaresToAdd <= 1) squareEl.classList.add("bl");
+        if (n % 40 === 39 || squaresToAdd < 1) squareEl.classList.add("br");
+        if (n >= 24 * 40 || squaresToAdd < 40) squareEl.classList.add("bb");
+        squareEl.setAttribute("data-text", `(other colors)\n${totalPointsLeft / 10}%`);
+        commonEl.appendChild(squareEl);
+        n++;
+      }
+    })
+  </script>
+</body>
+</html>
